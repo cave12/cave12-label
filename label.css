@@ -1,0 +1,117 @@
+body {
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background-color: rgb(212, 210, 205);
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  font-size: 100%;
+  font-family: Courier, Courier, New, monospace;
+}
+h1 {
+  font-size: 150%;
+  padding-top: 25px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 252px;
+}
+h2 {
+  font-size: 110%;
+  padding-bottom:0;
+  padding-top: 20px;
+
+}
+h2.stripe {
+	background-color: rgb(0, 0, 0);
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  color: rgb(255, 255, 255);
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+a img {
+ border: 0pt none;
+}
+p, pre, h3 {
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+#menu {
+  position: relative;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  font-size: 100%;
+  font-weight: bold;
+  width: 55em;
+  height: 74px;
+}
+#menu img.logo {
+ width: 180px;
+ height: 74px;
+ border: 0pt none;
+ vertical-align: bottom;
+}
+#text {
+  position: relative;
+  clear: both;
+  margin-top: 42px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  margin-left: 252px;
+  font-size: 95%;
+  width: 34em;
+}
+#text p {
+ padding-left: 0pt;
+ margin-left: 0pt;
+}
+#text.albums, h1.albums {
+  margin-left: 150px;
+}
+h1.albums {
+}
+a:link {
+  color: rgb(0, 0, 255);
+}
+a:visited {
+  color: rgb(0, 0, 255);
+}
+a:hover {
+  color: rgb(0, 0, 255);
+}
+a:active {
+  color: rgb(0, 0, 255);
+}
+#menu .rouge {
+  color: red;
+}
+table.metamkine {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+.small {
+  font-size: 85%;
+}

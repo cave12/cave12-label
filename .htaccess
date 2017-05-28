@@ -1,0 +1,40 @@
+# REDIRECTS
+
+Redirect permanent /antoine_chessex.html http://label.cave12.org
+Redirect permanent /album_dust.html http://label.cave12.org
+
+
+Redirect permanent /presentation.html http://label.cave12.org/presentation/
+Redirect permanent /contact.html http://label.cave12.org/contact/
+Redirect permanent /liens.html http://label.cave12.org/liens/
+
+# OLD
+# album_pbb.html
+# album_multitude.html
+
+Redirect permanent /album_darling.html http://label.cave12.org/album-darling/
+Redirect permanent /album_darling http://label.cave12.org/album-darling/
+Redirect permanent /disque_darling.html http://label.cave12.org/album-darling/
+Redirect permanent /c12f01.html http://label.cave12.org/album-darling/
+
+Redirect permanent /album_multitude.html http://label.cave12.org/album-multitude/
+Redirect permanent /album-multitude.html http://label.cave12.org/album-multitude/
+
+Redirect permanent /album_pbb.html http://label.cave12.org/album-pateras-baxter-brown/
+Redirect permanent /album-pateras-baxter-brown.html http://label.cave12.org/album-pateras-baxter-brown/
+Redirect permanent /album_pateras_baxter_brown.html http://label.cave12.org/album-pateras-baxter-brown/
+Redirect permanent /pateras_baxter_brown.html http://label.cave12.org/album-pateras-baxter-brown/
+
+# Dust
+
+Redirect permanent /album_dust.html http://label.cave12.org/album-dust/
+Redirect permanent /album-dust.html http://label.cave12.org/album-dust/
+Redirect permanent /antoine_chessex.html http://label.cave12.org/album-dust/#bio
+
+# Upic
+
+Redirect permanent /untitled-phenomenas-in-concrete/ http://label.cave12.org/francisco-meirino-upic/
+
+# DDK
+
+Redirect 302 /ddk/ http://label.cave12.org/
