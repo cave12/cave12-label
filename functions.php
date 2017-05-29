@@ -4,8 +4,9 @@ function c12_albums( ) {
 	
 	$albums = array(
 		// 'album-darling' => 'Darling',
-		'album-pateras-baxter-brown' => 'Pateras/Baxter/Brown - Live at l’Usine',
-		'album-multitude' => 'Diatribes & Barry Guy - multitude',
+		// 'album-pateras-baxter-brown' => 'Pateras/Baxter/Brown - Live at l’Usine',
+		// 'album-multitude' => 'Diatribes & Barry Guy - multitude',
+		'albums' => 'Albums',
 		'album-dust' => 'Antoine Chessex - Dust',
 		'francisco-meirino-upic' => 'Francisco Meirino - Untitled Phenomenas In Concrete',
 		'norbert-moeslang' => 'Norbert Möslang - killer_kipper',
