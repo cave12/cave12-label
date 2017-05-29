@@ -37,7 +37,7 @@
   <div id="container" class="">
     
     <?php 
-     	echo c12_header('ddk');  
+     	echo c12_header('ddk-floating-piece-of-space');  
     ?>
     
     <article id="main" role="main" class="main">

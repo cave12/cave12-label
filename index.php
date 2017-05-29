@@ -3,8 +3,8 @@
 	include( 'functions.php' );
 	
 	echo c12_head( 
-		'DDK - floating piece of space', // title
-		'Jacques Demierre Axel Dörner Jonas Kocher - floating piece of space' // descr
+		'günter müller / norbert möslang - vlan_voilà', // title
+		'günter müller - norbert möslang' // descr
 	 );
 	 
 	function c12_page_nav( $active ) {
@@ -18,8 +18,10 @@
 		
 		$items = array(
 			'about' => 'à propos',
-			'audio' => 'audio',
-			'bio' => 'bio',
+			// 'audio' => 'audio',
+			// 'bio' => 'bio',
+			'norbert' => 'Norbert Möslang',
+			'guenter' => 'Günter Müller',
 			'credits' => 'crédits',
 			// 'presse' => 'presse',
 			'order' => 'commander'
@@ -32,7 +34,7 @@
 	} 
 
 ?>
-<body class="album-moeslang v4" id="body">
+<body class="album-vlan-voila v4" id="body">
 
   <div id="container" class="">
     
@@ -45,17 +47,17 @@
     	
     	<header class="album-title serif article-bloc">
 	    	<h1 class="title-h1 title-one">
-	    	DDK - Jacques Demierre Axel Dörner Jonas Kocher
+	    	günter müller - norbert möslang
 	    	</h1>
 	    	
 	    	<h1 class="title-h1 title-two">
-	    	floating piece of space
+	    	vlan_voilà
 	    	</h1>
 	    	
 	    	<div class="title-h1 title-labelinfo">
 	    	<p>cave12</p>
 	    	<p >Alive III</p>
-	    	<p class="indent">c12 A 03</p>
+	    	<p class="indent">c12 A 04</p>
 	    	</div>
     	</header>
     	
@@ -69,44 +71,24 @@
 				?>
 				<article class="article cl serif">
 					
-					<h2>floating piece of space</h2>
+					<h2>vlan_voilà</h2>
 					
-						<p>Enregistré live à la cave12 en Octobre 2014 lors d’un concert qui fut remarquable de tensions acoustiques, contre-pieds suspendus, intrications de sonorités scalpelisées, dépôts sonores orfévriques hautement focalisés, 
-						éruptions éparses, retenues  magnificentes, une trompette-rayon-laser tout bonnement fantastique,  
-						voire extraterrestre, c’est avec un immense plaisir que la cave12, en étroite collaboration avec les musiciens 
-						du trio sort ce vinyle, «&nbsp;floating piece of space&nbsp;».</p>
+						<p>Cette oeuvre sonore a été enregistrée le 10 avril 2016 à la cave12, Genève.<br/>
+						Il s’agit d’une performance live d’une durée de 42’37”</p>
 						
-			
-				</article>
-			</div>	
-		</section>
-		
-		<section class="article-bloc extrait-sonore" id="audio">
-			<div class="bloc-image"><img src="/img/ddk/pattern5.png" />
-			</div>
-			<div class="bloc-texte">
-				<?php 
-				 	echo c12_page_nav('audio');  
-				?>		
-				<article class="article cl serif">
-				
-					<h2>Extrait sonore</h2>
-					
-					<div class="listen-mp3-box large">
-					  	<ul class="playlist dark blisc unstyled">
-						  	<li>
-								<a class="none" href="/ziq/ddk-the-mirror-fragment.mp3">the mirror (fragment)</a>
-							</li>
-						</ul>
-					</div>
-					
-				 		
+						<p>Deux figures clés, historiques et essentielles si il en est de la scène expérimentale “abstract &amp; electronics” helvète de ces 40 dernières années!<br/>
+						ADN premier d’excursions aventureuses sonores radicales pour l’époque en Suisse et aujourd’hui totalement “assimilées” par une pléthore infinie de musiciens jeunes et moins jeunes, la fantastique paire formée par Günter Müller et Norbert Möslang (fondateur du culte duo voicecrack en 1972 déjà...) délivre avec une maîtrise hors-pair une fabuleuse épopée sonore à la diversité confondante.</p>
+						
+						<p>Drones profonds lardés de power electronics fantastiquement englobants, crépitements/grésillements, tics-tacs, particules sonores croustillantes, etc... sont répartis en d’épaisses couches stellaires et/ou organiques, en mouvement permanent. Fascinant, captivant, énergique et dans le genre, puissamment magistral !</p>
+						
+						<p>Le travail graphique a été réalisé par Xavier Robel.</p>
+						
 				</article>
 			</div>	
 		</section>
 		
 		
-		<section class="article-bloc" id="bio">
+		<section class="article-bloc" id="norbert">
 					<div class="bloc-image"><img src="/img/ddk/pattern2.png" alt="" />
 					</div>
 					<div class="bloc-texte">
@@ -115,24 +97,30 @@
 						?>		
 						<article class="article cl serif">
 							
-							<h2>Jacques Demierre</h2>
+							<h2>Norbert Möslang</h2>
 							
-								<p>Pianiste, compositeur et improvisateur basé à Genève. Qu’elle soit acoustique ou électroacoustique, respectueuse de l’écriture musicale traditionnelle ou embrassant l’improvisation libre, ses expérimentations alimentent autant la musique que la poésie sonore ou des interventions sonore in situ. Ses expérimentation sont toutes conduites par la même quête constante pour une conscience du son. Auteur de nombreuses pièces pour ensemble ou voix, il explore également la puissance des bruits de tous les jours. Elargissant les possibilités sonores du piano, Jacques Demierre interroge également les voies par lesquelles celui-ci peu approcher la sphère du langage. Il développe une conception critique très transversale et interdisciplinaire de la musique ce qui lui donne l’opportunité de travailler avec des artistes aux backgrounds différents.</p>
+								<p>Norbert Möslang
+								1952 St.Gall 
 								
-								<p>Il travaille régulièrement avec des personnalités telles Vincent Barras, Chris Mann, Caroline Bergvall, Cindy van Acker, Noemi Lapzeson, Barre Philips, Urs Leimgruber, Thomas Lehn, Martial Solal, Joëlle Léandre, Radu Malfatti, Axel Dörner, Fritz Hauser, Sainkho Namtchylak, Isabelle Duthoit, Brandon Labelle, Hans Koch, Jason Kahn, Charlotte Hug, Butch Morris, Roger Turner, Okkyung Lee, Peter Evans, Carlos Zingaro, Gunter Müller, Jaap Blonk, Barry Guy, Sylvie Courvoisier, Hann Bennink, Rhodri Davis, Paul Lovens, Dorothea Schürch, Phil Minton, Elliott Sharp, etc, etc, etc…</p>
+								<p>Travaille dès le début des années 80 à étendre les possibles d’interventions / investigations / détournements sonores. Intervient souvent in situ, et réalise avec Andy Guhl ses premières installations et performances documentées en autre dans le film de Peter Liechti Kick that Habit (1989). 
+								Actif dans le domaine des arts visuels et sonores, il réalise en 2001 l’installation sound_shifting conçue pour l’église San Stae durant la 49e Biennale de Venise, documentée dans le livre-cd San Stae aux ed. Memory Cage. 
+								Le duo Voice Crack, qu’il forme avec Andy Guhl sera actif jusqu’en 2002. 
+								Il développe un langage sonore et visuel en utilisant les vibrations, champs magnétiques, fréquences, de composants électroniques trafiqués : “cracked everyday electronics” </p>
 								
-								<p>Il a par ailleurs reçu le prix de la ville de Genève section Musique en 2007 et a sorti des enregistrements sur des labels tels Tzadik, héros-limite, Psi, Victo, Leo, Plainisphare, Creative Sources, INSUB., Intakt, Bocian Records, Unit Record, etc, etc…</p>
+								<p>All of life consists of vibrations, and all of these relate to particular resonances. There are light waves, sound waves, microwaves... In this context you can start to combine things and, for example, use a radio as resonator for the waves from a remote control. And if it maybe doesn't work, then you just have to go on changing the frequencies and looking for connections until you've cracked it. nm </p>
 								
-							<h2>Jonas Kocher</h2>
+								<p>Il collabore avec de nombreux artistes de la scène expérimentale suisse et internationale : poire_z and king UbU Orchestra, Borbetomagus, Otomo Yoshihide, Günter Müller, ErikM, Jérome Noetinger, Lionel Marchetti, Jim O'Rourke, Kevin Drumm, Jason Kahn, Oren Ambarchi, Tomas Korber, Keith Rowe, I-sound, Toshi Nakamura, Maria, Keiichiro Shibuya, Aube, Carlos Zingaro, Christian Weber, Florian Hecker, entre autres. </p>
+								
+								<p>Récompensé en 2007 par le Prix Namics pour les nouveaux médias
+								Récompensé en 2010 pour la meilleure musique de film The sound of insects, un film de Peter Liechti, par le SwissFilm Award 
+								Reco̧it en 2011 le Cinema Eye Award (New York) 
+								Nominé en 2014 pour le Prix Suisse de Musique 
+								
+								Site internet:
+								http://moeslang.com
+								</p>
+								
 							
-							<p>Accordéoniste et compositeur né en 1977, Jonas Kocher a étudié entre autres auprès de Teodoro Anzellotti et Georges Aperghis. Depuis le milieu des années 2000, il collabore régulièrement en tant qu’accordéoniste improvisateur et dans des contextes conceptuels avec Michel Doneda, Christian Wolfarth, Olivier Toulemonde, duo Diatribes, Jacques Demierre, Chris Heenan, Alfredo Costa Monteiro, Gaudenz Badrutt, Christian Kesten … </p>
-							<p>Le travail de Jonas Kocher explore les relations entre son, bruit et silence, ainsi que le processus de l’écoute.</p>
-							<p>En tant que compositeur, il réalise des oeuvres entre théâtre musical, installations et pièces de concert. Ses compositions ont été jouées à la Biennale de Berne 2010, Theater Basel, Zentrum Paul Klee, Festival Encuentros Buenos Aires, Umlaut Festival Berlin, Centre Dürrenmatt Neuchâtel .</p>
-								
-							<h2>Axel Dörner</h2>
-							
-							<p>Après des études de piano, Axel Dörner se tourne vers la trompette et se produit dans différents groupes de jazz avant de former à Cologne un quartet avec Frank Gratkowski, Hans Schneider et Martin Blume. Installé à Berlin en 1994, il se penche sur le répertoire de Monk, Dolphy et travaille avec Alex Schlippenbach, Aki Takase, Sven-Åke Johansson, Butch Morris...</p>
-							<p>Par ailleurs, l’étendue de sa pratique notamment vers un certain réductionnisme en fait un musicien déterminant de la scène expérimentale berlinoise. Il est ou a été membre de The Contest Of Pleasures (avec John Butcher et Xavier Charles), The Electrics, Otomo Yoshihide’s New Jazz Orchestra (avec notamment Otomo Yoshihide et Mats Gustafsson)... Il a également joué ou sorti des disques avec Kevin Drumm, Keith Rowe, Toshimaru Nakamura, Diego Chamy, Lucio Capece, Andrea Neumann, Burkhard Beins, etc.</p>
 					
 						</article>
 					</div>	
