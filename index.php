@@ -20,9 +20,9 @@
 			'about' => 'à propos',
 			// 'audio' => 'audio',
 			// 'bio' => 'bio',
-			'norbert' => 'Norbert Möslang',
-			'guenter' => 'Günter Müller',
-			'credits' => 'crédits',
+			'norbert' => 'NM',
+			'guenter' => 'GM',
+			'credits' => 'credits',
 			// 'presse' => 'presse',
 			'order' => 'commander'
 		);
@@ -39,7 +39,7 @@
   <div id="container" class="">
     
     <?php 
-     	echo c12_header('ddk');  
+     	echo c12_header('vlan-voila');  
     ?>
     
     <article id="main" role="main" class="main">
@@ -56,7 +56,7 @@
 	    	
 	    	<div class="title-h1 title-labelinfo">
 	    	<p>cave12</p>
-	    	<p >Alive III</p>
+	    	<p >Alive IV</p>
 	    	<p class="indent">c12 A 04</p>
 	    	</div>
     	</header>
@@ -107,17 +107,19 @@
 								Le duo Voice Crack, qu’il forme avec Andy Guhl sera actif jusqu’en 2002. 
 								Il développe un langage sonore et visuel en utilisant les vibrations, champs magnétiques, fréquences, de composants électroniques trafiqués : “cracked everyday electronics” </p>
 								
-								<p>All of life consists of vibrations, and all of these relate to particular resonances. There are light waves, sound waves, microwaves... In this context you can start to combine things and, for example, use a radio as resonator for the waves from a remote control. And if it maybe doesn't work, then you just have to go on changing the frequencies and looking for connections until you've cracked it. nm </p>
+								<blockquote>
+									<p>All of life consists of vibrations, and all of these relate to particular resonances. There are light waves, sound waves, microwaves... In this context you can start to combine things and, for example, use a radio as resonator for the waves from a remote control. And if it maybe doesn't work, then you just have to go on changing the frequencies and looking for connections until you've cracked it. nm </p>
+								</blockquote>
 								
 								<p>Il collabore avec de nombreux artistes de la scène expérimentale suisse et internationale : poire_z and king UbU Orchestra, Borbetomagus, Otomo Yoshihide, Günter Müller, ErikM, Jérome Noetinger, Lionel Marchetti, Jim O'Rourke, Kevin Drumm, Jason Kahn, Oren Ambarchi, Tomas Korber, Keith Rowe, I-sound, Toshi Nakamura, Maria, Keiichiro Shibuya, Aube, Carlos Zingaro, Christian Weber, Florian Hecker, entre autres. </p>
 								
-								<p>Récompensé en 2007 par le Prix Namics pour les nouveaux médias
-								Récompensé en 2010 pour la meilleure musique de film The sound of insects, un film de Peter Liechti, par le SwissFilm Award 
-								Reco̧it en 2011 le Cinema Eye Award (New York) 
-								Nominé en 2014 pour le Prix Suisse de Musique 
+								<p class="emphasis">Récompensé en 2007 par le Prix Namics pour les nouveaux médias<br/>
+								Récompensé en 2010 pour la meilleure musique de film The sound of insects, un film de Peter Liechti, par le SwissFilm Award <br/>
+								Reco̧it en 2011 le Cinema Eye Award (New York) <br/>
+								Nominé en 2014 pour le Prix Suisse de Musique </p>
 								
-								Site internet:
-								http://moeslang.com
+								<p>Site internet:
+								<a href="http://moeslang.com">http://moeslang.com</a>
 								</p>
 								
 							
@@ -125,6 +127,35 @@
 						</article>
 					</div>	
 		</section>
+		
+		<section class="article-bloc" id="guenter">
+					<div class="bloc-image"><img src="/img/ddk/pattern2.png" alt="" />
+					</div>
+					<div class="bloc-texte">
+						<?php 
+						 	echo c12_page_nav('bio');  
+						?>		
+						<article class="article cl serif">
+							
+							<h2>Günter Müller</h2>
+							
+								<p>1954 München</p>
+								
+								<p>Lebt seit 1966 in der Schweiz.<br/>
+								Er begann in den 70-er Jahren als Schlagzeuger im Bereich der improvisierten Musik, erweiterte in den frühen 80-er Jahren sein Instrumentarium mit einem mobilen Tonabnehmer und Mikrofonsystem und beschäftigt sich fortan vermehrt und dann ausschliesslich mit elektronischer Musik.</p>
+								
+								<p>Müller spielte in Europa, in Russland, USA, Mexico und Südamerika, Canada, Japan, Korea, Australien und Neuseeland.<br/>
+								Etliche Veröffentlichungen erschienen auf dem von ihm 1990 gegründeten Label For4Ears, weitere auf Erstwhile, Cut, Grob, List, Audiosphere, Amoebic, Rossbin, Creative Sources, Monotype, Mikroton und andern Labels.</p>
+								
+								<p>Müller spielte und machte Aufnahmen mit Musikern wie Jim O'Rourke, Christian Marclay, Butch Morris, Otomo Yoshihide, Keith Rowe, Oren Ambarchi, John Tilbury, Toshi Nakamura, Lee Ranaldo und vielen mehr.<br/> 
+								Müller war Gründungsmitglied des Trios <i>Nachtluft</i> mit Andres Bosshard und Jacques Widmer, welches in den 80ern und 90ern Klang-Installationen und Klang-Architektur kreierte, und des elektronischen Quartetts <i>poire_z</i> mit eRikm und Voice Crack.</p>
+								
+								<p>Mit Norbert Möslang arbeitet Müller seit bald 20 Jahren zusammen, so aktuell im Duo und im Trio MKM zusammen mit Jason.</p>
+								
+						</article>
+					</div>	
+		</section>
+		
 		
 		
 
@@ -139,24 +170,26 @@
 				
 		<h2>Crédits</h2>
 							
-							<div class="disk-format">
-								<p>Format: 12” vinyl, 45t</p>
-								<p>face A - the mirror : 18’06”</p>
-								<p>face B - the garden : 17’41”</p>
-							</div>
+							<section class="info-block">
+								<p class="newpar">Recorded april 2016 at cave12</p>
+								<p>Günter Müller: ipods electronics</p>
+								<p>Norbert Möslang: cracked everyday electronics</p>
+							</section>
 							
-							 <p class="newpar">enregistré Live à la cave12 le 1<sup>er</sup> octobre 2014 par Benjamin Ephise</p>
-							 
-							 <p class="newpar">mixé par Axel Dörner</p>
-							 
-							 <p class="newpar">masterisé par Blaise Favre</p>
-							 
-							 <p class="newpar">graphisme: Xavier Robel</p>
-							 
-							 <p class="newpar">produit par la cave12 avec le soutien de la Ville de Genève</p>
-							 
-							 <p class="newpar">distribué par Metamkine </p>							
-				      	  
+							<section class="info-block">
+								 	<p class="newpar">Format: 12” vinyl, 33rpm</p>
+								 	<p>Side A - 21:23</p>
+								 	<p>Side B - 21:26</p>
+								 	<p>Released May 2017</p>
+							</section>
+							
+							<section class="info-block">
+								 <p class="newpar">Jérôme Léonard: engineer</p>
+								 <p>Norbert Möslang: mixing</p>
+								 <p>Rashad Becker: mastering cut</p>
+								 <p>Xavier Robel: design</p>
+							 </section>
+							 				      	  
 		</article>
 	</div>	
 </section>
