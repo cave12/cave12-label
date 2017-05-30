@@ -34,6 +34,165 @@
 	} 
 
 ?>
+<style>
+	
+	.album-title {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.title-one {
+		width: 20em;
+	}
+	
+	.album-vlan-voila .main {
+		background: #fff;
+		background: linear-gradient(180deg, #D4D2CD, #fff 30em);
+		background-image: url("/img/vlan-voila/bg800.jpg");
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	
+	
+	@supports ( object-fit:cover ) {
+	
+		.bloc-image img {
+			object-fit: cover;
+			height: 100%;
+			width: 100%;
+		}
+		
+	}
+	
+	@supports ( display:flex ) {
+
+		.article-bloc {
+			margin-bottom: 5em;
+			display: flex;
+			width: auto;
+		}
+		
+		.bloc-image, .bloc-texte {
+			width: auto;
+			flex: 1;
+			/*float: none;
+			width: auto;
+			height: auto;
+			*/
+		}
+		
+		.album-title {
+			margin-bottom: 0;
+		}
+		
+		.main-inside {
+			display: flex;
+			flex-direction: column;
+			max-width: 1000px;
+		}
+		
+		.header {
+			display: flex;
+			align-content: flex-end;
+		}
+		
+		.logo, 
+		.nav-albums, 
+		.v4 .nav-head {
+			position: relative;
+			margin: 0;
+			
+		}
+		
+		.logo {
+			left: 0px;
+			padding: 0 30px 0 20px;
+		}
+		
+		.nav-albums {
+			margin: 0;
+		}
+		
+		.v4 .nav-head {
+			margin: 0;
+			width: auto;
+			flex: 1;
+		}
+		
+
+	}
+	
+	@media only screen and (max-width: 999px) {
+	    
+	    .header {
+	    	width: auto;
+	    }
+	    
+	    .nav-albums li:nth-child(2) {
+	    	display: none;
+	    }
+	    
+	}
+	
+	@media only screen and (max-width: 832px) {
+
+	    .nav-albums li:nth-child(3) {
+	    	display: none;
+	    }
+	    
+	}
+	
+	@media only screen and (max-width: 734px) {
+	
+		    .nav-albums li:nth-child(4) {
+		    	display: none;
+		    }
+		    
+	}
+	
+	
+	@media only screen and (max-width: 642px) {
+	
+		    .nav-albums li:nth-child(5) {
+		    	display: none;
+		    }
+		    
+		    .article-bloc {
+		    	flex-direction: column;
+		    }
+		    
+		    .bloc-image {
+		    	max-height: 20vh;
+		    	order: 2;
+		    }
+		    
+	}
+	
+	@media only screen and (max-width: 550px) {
+		
+		.header {
+			flex-wrap:  wrap;
+		}
+		
+		.nav-albums {
+			order: 3;
+			
+		}
+		
+		.nav-albums ul {
+			display: flex;
+			width: 90vw;
+			padding: 1vw;
+		}
+		
+		#top .nav-albums li {
+			display: block;
+		}
+		    
+	}
+
+</style>
 <body class="album-vlan-voila v4" id="body">
 
   <div id="container" class="">
@@ -63,7 +222,7 @@
     	
 		
 		<section class="article-bloc" id="about">
-			<div class="bloc-image"><img src="/img/ddk/pattern2.png" alt="" />
+			<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label.jpg" alt="" />
 			</div>
 			<div class="bloc-texte">
 				<?php 
@@ -76,8 +235,9 @@
 						<p>Cette oeuvre sonore a été enregistrée le 10 avril 2016 à la cave12, Genève.<br/>
 						Il s’agit d’une performance live d’une durée de 42’37”</p>
 						
-						<p>Deux figures clés, historiques et essentielles si il en est de la scène expérimentale “abstract &amp; electronics” helvète de ces 40 dernières années!<br/>
-						ADN premier d’excursions aventureuses sonores radicales pour l’époque en Suisse et aujourd’hui totalement “assimilées” par une pléthore infinie de musiciens jeunes et moins jeunes, la fantastique paire formée par Günter Müller et Norbert Möslang (fondateur du culte duo voicecrack en 1972 déjà...) délivre avec une maîtrise hors-pair une fabuleuse épopée sonore à la diversité confondante.</p>
+						<p>Deux figures clés, historiques et essentielles si il en est de la scène expérimentale “abstract &amp; electronics” helvète de ces 40 dernières années!</p>
+						
+						<p>ADN premier d’excursions aventureuses sonores radicales pour l’époque en Suisse et aujourd’hui totalement “assimilées” par une pléthore infinie de musiciens jeunes et moins jeunes, la fantastique paire formée par Günter Müller et Norbert Möslang (fondateur du culte duo voicecrack en 1972 déjà...) délivre avec une maîtrise hors-pair une fabuleuse épopée sonore à la diversité confondante.</p>
 						
 						<p>Drones profonds lardés de power electronics fantastiquement englobants, crépitements/grésillements, tics-tacs, particules sonores croustillantes, etc... sont répartis en d’épaisses couches stellaires et/ou organiques, en mouvement permanent. Fascinant, captivant, énergique et dans le genre, puissamment magistral !</p>
 						
@@ -89,7 +249,7 @@
 		
 		
 		<section class="article-bloc" id="norbert">
-					<div class="bloc-image"><img src="/img/ddk/pattern2.png" alt="" />
+					<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label.jpg" alt="" />
 					</div>
 					<div class="bloc-texte">
 						<?php 
@@ -102,8 +262,8 @@
 								<p>Norbert Möslang
 								1952 St.Gall 
 								
-								<p>Travaille dès le début des années 80 à étendre les possibles d’interventions / investigations / détournements sonores. Intervient souvent in situ, et réalise avec Andy Guhl ses premières installations et performances documentées en autre dans le film de Peter Liechti Kick that Habit (1989). 
-								Actif dans le domaine des arts visuels et sonores, il réalise en 2001 l’installation sound_shifting conçue pour l’église San Stae durant la 49e Biennale de Venise, documentée dans le livre-cd San Stae aux ed. Memory Cage. 
+								<p>Travaille dès le début des années 80 à étendre les possibles d’interventions / investigations / détournements sonores. Intervient souvent in situ, et réalise avec Andy Guhl ses premières installations et performances documentées en autre dans le film de Peter Liechti <i>Kick that Habit</i> (1989).<br/> 
+								Actif dans le domaine des arts visuels et sonores, il réalise en 2001 l’installation sound_shifting conçue pour l’église San Stae durant la 49e Biennale de Venise, documentée dans le livre-cd San Stae aux ed. Memory Cage. <br/>
 								Le duo Voice Crack, qu’il forme avec Andy Guhl sera actif jusqu’en 2002. 
 								Il développe un langage sonore et visuel en utilisant les vibrations, champs magnétiques, fréquences, de composants électroniques trafiqués : “cracked everyday electronics” </p>
 								
@@ -129,7 +289,7 @@
 		</section>
 		
 		<section class="article-bloc" id="guenter">
-					<div class="bloc-image"><img src="/img/ddk/pattern2.png" alt="" />
+					<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label.jpg" alt="" />
 					</div>
 					<div class="bloc-texte">
 						<?php 
@@ -160,7 +320,7 @@
 		
 
 <section class="article-bloc" id="credits">
-	<div class="bloc-image"><img src="/img/ddk/pattern3.png" alt="" />
+	<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label.jpg" alt="" />
 	</div>
 	<div class="bloc-texte">
 		<?php 
@@ -196,7 +356,7 @@
 
 
 <section class="article-bloc" id="order">
-	<div class="bloc-image"><img src="/img/ddk/disk-label.png" alt="" />
+	<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label.jpg" alt="" />
 	</div>
 	<div class="bloc-texte">
 		<?php 

@@ -92,6 +92,10 @@ blockquote {
 	font-style: italic;
 }
 
+.info-block {
+	margin: 1.5em 0;
+}
+
 .soft {
 	color: #333;
 }
