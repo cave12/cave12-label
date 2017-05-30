@@ -48,7 +48,7 @@
 	.album-vlan-voila .main {
 		background: #fff;
 		background: linear-gradient(180deg, #D4D2CD, #fff 30em);
-		background-image: url("/img/vlan-voila/bg800.jpg");
+		background-image: url("/img/vlan-voila/bgalt.jpg");
 		width: 100%;
 		margin: 0 auto;
 	}
@@ -75,6 +75,7 @@
 		
 		.bloc-image, .bloc-texte {
 			width: auto;
+			height: auto;
 			flex: 1;
 			/*float: none;
 			width: auto;
@@ -222,7 +223,7 @@
     	
 		
 		<section class="article-bloc" id="about">
-			<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label.jpg" alt="" />
+			<div class="bloc-image"><img src="/img/vlan-voila/vlan-voila-pattern3.png" alt="" />
 			</div>
 			<div class="bloc-texte">
 				<?php 
@@ -249,7 +250,7 @@
 		
 		
 		<section class="article-bloc" id="norbert">
-					<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label.jpg" alt="" />
+					<div class="bloc-image"><img src="/img/vlan-voila/bgalt.jpg" alt="" />
 					</div>
 					<div class="bloc-texte">
 						<?php 
@@ -289,7 +290,7 @@
 		</section>
 		
 		<section class="article-bloc" id="guenter">
-					<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label.jpg" alt="" />
+					<div class="bloc-image"><img src="/img/vlan-voila/vlan-voila-pattern2.png" alt="" />
 					</div>
 					<div class="bloc-texte">
 						<?php 
@@ -320,7 +321,7 @@
 		
 
 <section class="article-bloc" id="credits">
-	<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label.jpg" alt="" />
+	<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label4.jpg" alt="" />
 	</div>
 	<div class="bloc-texte">
 		<?php 
@@ -356,7 +357,7 @@
 
 
 <section class="article-bloc" id="order">
-	<div class="bloc-image"><img src="/img/vlan-voila/vinyl-label.jpg" alt="" />
+	<div class="bloc-image"><img src="/img/vlan-voila/order-vinyl.jpg" alt="" />
 	</div>
 	<div class="bloc-texte">
 		<?php 
