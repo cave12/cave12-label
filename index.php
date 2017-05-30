@@ -211,13 +211,13 @@
 			 	echo c12_paypal(
 			 		'Total: 20.- CHF (+ frais de port)', // $text
 			 		'CHF', // $currency
-			 		'P79J7BGQR9JV4' // $code
+			 		'J922ES36258VQ' // $code
 			 	); 
 			 	
 			 	echo c12_paypal(
 			 			'Total: 20 EUR (+ frais de port)', // $text
 			 			'EUR', // $currency
-			 			'BLMGPV68XDLTY' // $code
+			 			'RA64PVMD8GYJ6' // $code
 			 		);  
 			
 			?>
