@@ -36,6 +36,15 @@
 ?>
 <style>
 	
+	html {
+	   box-sizing: border-box;
+	 }
+	
+	 *, *:before, *:after {
+	   box-sizing: inherit;
+	 }
+	
+	
 	.album-title {
 		display: flex;
 		flex-direction: row;
@@ -71,6 +80,14 @@
 			margin-bottom: 5em;
 			display: flex;
 			width: auto;
+		}
+		
+		.article-bloc,
+		.album-title {
+			width: 100%;
+			min-width: auto;
+			margin-left: auto;
+			margin-right: auto;
 		}
 		
 		.bloc-image, .bloc-texte {
@@ -178,17 +195,28 @@
 		
 		.nav-albums {
 			order: 3;
-			
+			width: 100%;
 		}
 		
 		.nav-albums ul {
 			display: flex;
-			width: 90vw;
-			padding: 1vw;
+			justify-content: space-around;
+			width: 100%;
+			padding: 0;
+			margin-top: 10px;
 		}
 		
 		#top .nav-albums li {
 			display: block;
+			width: 15%;
+			margin: 0;
+		}
+		
+		.nav-albums img,
+		.nav-albums .active img {
+			width: 100%;
+			height: auto;
+			margin-top: 0;
 		}
 		    
 	}
