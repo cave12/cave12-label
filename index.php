@@ -56,8 +56,7 @@
 	
 	.album-vlan-voila .main {
 		background: #fff;
-		background: linear-gradient(180deg, #D4D2CD, #fff 30em);
-		background-image: url("/img/vlan-voila/bgalt.jpg");
+		background-image: linear-gradient(180deg, #D4D2CD, transparent 50em), url("/img/vlan-voila/bgalt.jpg");
 		width: 100%;
 		margin: 0 auto;
 	}
