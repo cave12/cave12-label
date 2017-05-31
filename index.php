@@ -18,7 +18,7 @@
 		
 		$items = array(
 			'about' => 'à propos',
-			// 'audio' => 'audio',
+			'audio' => 'audio',
 			// 'bio' => 'bio',
 			'norbert' => 'NM',
 			'guenter' => 'GM',
@@ -244,6 +244,31 @@
 						
 						<p>Le travail graphique a été réalisé par Xavier Robel.</p>
 						
+				</article>
+			</div>	
+		</section>
+		
+		
+		<section class="article-bloc extrait-sonore" id="audio">
+			<div class="bloc-image"><img src="/img/vlan-voila/vlan-voila-pattern1.png" />
+			</div>
+			<div class="bloc-texte">
+				<?php 
+				 	echo c12_page_nav('audio');  
+				?>		
+				<article class="article cl serif">
+				
+					<h2>Extrait sonore</h2>
+					
+					<div class="listen-mp3-box large">
+					  	<ul class="playlist dark blisc unstyled">
+						  	<li>
+								<a class="none" href="/ziq/vlan-voila-fragment.mp3">vlan_voilà (fragment)</a>
+							</li>
+						</ul>
+					</div>
+					
+				 		
 				</article>
 			</div>	
 		</section>
