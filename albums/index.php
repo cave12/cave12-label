@@ -39,13 +39,13 @@
   </tr>
   <tr>
     <td><a href="/ddk-floating-piece-of-space/"><img src="../img/covers-small/ddk-floating-piece-of-space.png" width="200" height="180" border="0"></a></td>
-    <td><a href="/"><img src="../img/covers-small/vlan-voila.png" width="200" height="180" border="0"></a></td>
-    <td></td>
+    <td><a href="/vlan-voila/"><img src="../img/covers-small/vlan-voila.png" width="200" height="180" border="0"></a></td>
+    <td><a href="/francisco-meirino-la-plainte/"><img src="../img/covers-small/francisco-meirino-la-plainte.png" width="200" height="180" border="0"></a></td>
   </tr>
   <tr>
     <td><a href="/ddk-floating-piece-of-space/">DDK: floating piece of space</a></td>
-    <td><a href="/">vlan_voilà</a></td>
-    <td></td>
+    <td><a href="/vlan-voila/">vlan_voilà</a></td>
+    <td><a href="/francisco-meirino-la-plainte/">Francisco Meirino : La Plainte</a></td>
   </tr>
   
 </table>
