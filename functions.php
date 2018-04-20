@@ -1,17 +1,28 @@
 <?php 
 
 function c12_albums( ) {
+
+ /*
+  * Takes and array with Key -> Value pairs.
+  
+  $key is used for URL and image URL.
+  $value is used for title tag.
+  
+  Images are stored in : /img/covers-small/
+  
+ */
 	
 	$albums = array(
 		// 'album-darling' => 'Darling',
 		// 'album-pateras-baxter-brown' => 'Pateras/Baxter/Brown - Live at l’Usine',
 		// 'album-multitude' => 'Diatribes & Barry Guy - multitude',
 		'albums' => 'Albums',
-		'album-dust' => 'Antoine Chessex - Dust',
+		// 'album-dust' => 'Antoine Chessex - Dust',
 		'francisco-meirino-upic' => 'Francisco Meirino - Untitled Phenomenas In Concrete',
 		'norbert-moeslang' => 'Norbert Möslang - killer_kipper',
 		'ddk-floating-piece-of-space' => 'DDK - floating piece of space',
-		'vlan-voila' => 'Norbert Möslang - vlan_voilà'
+		'vlan-voila' => 'Norbert Möslang - vlan_voilà',
+		'francisco-meirino-la-plainte' => 'Francisco Meirino - La Plainte'
 	);
 	
 	return $albums;
@@ -43,7 +54,7 @@ function c12_head( $title, $description ) {
 	
 	  <meta name="viewport" content="width=device-width,initial-scale=1">
 	
-	  <link rel="stylesheet" href="/css/style-v4.css">
+	  <link rel="stylesheet" href="/css/style-v5.css">
 	  <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono|Merriweather:400,400italic,700" rel="stylesheet" type="text/css">
 	
 	  <script src="/js/libs/modernizr-2.0.6.min.js"></script>
@@ -210,6 +221,8 @@ function c12_footer( ) {
 
 /**
  * Generate paypal button
+ * Pour info, comment les générer?
+ * Lien: https://www.paypal.com/us/cgi-bin/customerprofileweb?cmd=_button-management
  *
  * @param string $code 
  * @param string $currency = CHF or EUR 

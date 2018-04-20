@@ -26,7 +26,6 @@
 		
 	} 
 
-
 	echo c12_head( 
 		'Norbert M&ouml;slang - killer_kipper', // title
 		'Norbert Möslang - killer_kipper' // descr

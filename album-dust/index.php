@@ -138,7 +138,7 @@
 </section>
 
 <section class="article-bloc" id="bio">
-	<div class="bloc-image"><img src="../img/dust/portrait-chessex.jpg" />
+	<div class="bloc-image bloc-image-telechargements"><img src="../img/dust/portrait-chessex.jpg" />
 	<div class="article-sub-bloc telechargements mono">
 	
 		<h3 class="padlft">Télécharger:</h3>

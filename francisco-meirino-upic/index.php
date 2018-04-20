@@ -151,7 +151,7 @@
 </section>
 
 <section class="article-bloc" id="bio">
-	<div class="bloc-image"><img src="../img/upic/meirino-bio.jpg" />
+	<div class="bloc-image bloc-image-telechargements"><img src="../img/upic/meirino-bio.jpg" />
 	<div class="article-sub-bloc telechargements mono">
 	<!-- img065-extr.jpg -->
 		<h3 class="padlft">Télécharger:</h3>
