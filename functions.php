@@ -56,6 +56,9 @@ function c12_head( $title, $description ) {
 	
 	  <link rel="stylesheet" href="/css/style-v5.css">
 	  <link href="//fonts.googleapis.com/css?family=Droid+Sans+Mono|Merriweather:400,400italic,700" rel="stylesheet" type="text/css">
+	  
+	  <link rel="icon" type="image/png" sizes="149x149" href="/icon.png">
+	  <link rel="apple-touch-icon" href="/icon.png">
 	
 	  <script src="/js/libs/modernizr-2.0.6.min.js"></script>
 	  <script src="/js/pourriel.js"></script>
