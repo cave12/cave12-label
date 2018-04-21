@@ -30,9 +30,28 @@
 		
 	} 
 
-	// page starts at <body>
-
+	/*
+	 * Custom CSS for current page only
+	*/
+	
 ?>
+<style>
+	.album-la-plainte .main {
+    background: #000 url(/img/la-plainte/label-A-crpd.jpg) repeat left top;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+		float: left;
+	}
+	
+	.article-bloc {
+	  box-shadow: none;
+	}
+	
+	.album-la-plainte .bloc-texte {
+	  box-shadow: inset 0 0 27px #7f7f7f;
+	}
+</style>
 <body class="album-la-plainte v4" id="body">
 
   <div id="container" class="">
@@ -98,10 +117,10 @@
 			<div class="listen-mp3-box large">
 			  	<ul class="playlist dark blisc unstyled">
 				  	<li>
-						<a class="none" href="../ziq/la_plainte_A_07min.mp3">face a (fragment) - 07'07''-12'27''</a>
+						<a class="none" href="../ziq/la_plainte_A_07min.mp3">face a (fragment) - 07’07”-12’27”</a>
 					</li>
 					<li>
-						<a class="none" href="../ziq/la_plainte_B.mp3">face b (fragment) - 00'00''-06'31''</a>
+						<a class="none" href="../ziq/la_plainte_B.mp3">face b (fragment) - 00’00”-06’31”</a>
 					</li>
 				</ul>
 			</div>
