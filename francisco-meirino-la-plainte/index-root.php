@@ -18,7 +18,7 @@
 		
 		$items = array(
 			'about' => 'à propos',
-			'about2' => 'about',
+			'audio' => 'audio',
 			'credits' => 'crédits',
 			'bio' => 'bio',
 			'order' => 'commander'
@@ -66,15 +66,9 @@
 	<div class="bloc-image"><img src="/img/la-plainte/label-A-crpd.jpg" />
 	</div>
 	<div class="bloc-texte">
-		<nav role="navigation" class="nav nav-article mono">
-			<ul>
-			<li><a href="#about" class="active">à propos</a></li>
-			<li><a href="#audio">audio</a></li>
-			<li><a href="#credits">crédits</a></li>
-			<li><a href="#bio">bio</a></li>
-			<li><a href="#order">commander</a></li>
-			</ul>
-		</nav>		
+		<?php 
+		 	echo c12_page_nav('about');  
+		?>	
 		<article class="article cl serif">
 			
 			<h2>La Plainte</h2>
@@ -94,24 +88,20 @@
 	<div class="bloc-image"><img src="/img/la-plainte/c12A05-vinyl-side-A.jpg" />
 	</div>
 	<div class="bloc-texte">
-		<nav role="navigation" class="nav nav-article">
-			<ul>
-			<li><a href="#about">à propos</a></li>
-			<li><a href="#audio" class="active">audio</a></li>
-			<li><a href="#credits">crédits</a></li>
-			<li><a href="#bio">bio</a></li>
-			<li><a href="#order">commander</a></li>
-			<li><a href="#body">&uarr;</a></li>
-			</ul>
-		</nav>		
+		<?php 
+		 	echo c12_page_nav('audio');  
+		?>	
 		<article class="article cl serif">
 		
-			<h2>Extrait sonore</h2>
+			<h2>La Plainte – Extrait sonore</h2>
 			
 			<div class="listen-mp3-box large">
 			  	<ul class="playlist dark blisc unstyled">
 				  	<li>
-						<a class="none" href="../ziq/la_plainte_b_m.mp3">La Plainte - Face B - 00'00''-02'02''</a>
+						<a class="none" href="../ziq/la_plainte_A_07min.mp3">face a (fragment) - 07'07''-12'27''</a>
+					</li>
+					<li>
+						<a class="none" href="../ziq/la_plainte_B.mp3">face b (fragment) - 00'00''-06'31''</a>
 					</li>
 				</ul>
 			</div>
@@ -125,19 +115,12 @@
 	<div class="bloc-image"><img src="/img/la-plainte/c12A05-vinyl-side-B.jpg" />
 	</div>
 	<div class="bloc-texte">
-		<nav role="navigation" class="nav nav-article">
-			<ul>
-			<li><a href="#about">à propos</a></li>
-			<li><a href="#audio">audio</a></li>
-			<li><a href="#credits" class="active">crédits</a></li>
-			<li><a href="#bio">bio</a></li>
-			<li><a href="#order">commander</a></li>
-			<li><a href="#body">&uarr;</a></li>
-			</ul>
-		</nav>		
+		<?php 
+		 	echo c12_page_nav('credits');  
+		?>		
 		<article class="article cl serif">
 		
-		<h2>Crédits</h2>
+		<h2>La Plainte – Crédits</h2>
 					
 			<p>Francisco Meirino : mixing and composition</p>
 			<p>Rashad Becker : dubplate &amp; mastering (berlin)</p>
@@ -151,16 +134,9 @@
 	<div class="bloc-image"><img src="../img/upic/meirino-bio.jpg" />
 	</div>
 	<div class="bloc-texte">
-		<nav role="navigation" class="nav nav-article">
-			<ul>
-			<li><a href="#about">à propos</a></li>
-			<li><a href="#audio">audio</a></li>
-			<li><a href="#credits">crédits</a></li>
-			<li><a href="#bio" class="active">bio</a></li>
-			<li><a href="#order">commander</a></li>
-			<li><a href="#body">&uarr;</a></li>
-			</ul>
-		</nav>		
+		<?php 
+		 	echo c12_page_nav('bio');  
+		?>		
 		<article class="article cl serif">
 		
 		<h2 class="serif">Francisco Meirino - Biographie</h2>
@@ -191,16 +167,9 @@
 	<div class="bloc-image"><img src="/img/la-plainte/cover-border.jpg" />
 	</div>
 	<div class="bloc-texte">
-		<nav role="navigation" class="nav nav-article">
-			<ul>
-			<li><a href="#about">à propos</a></li>
-			<li><a href="#audio">audio</a></li>
-			<li><a href="#credits">crédits</a></li>
-			<li><a href="#bio">bio</a></li>
-			<li><a href="#order" class="active">commander</a></li>
-			<li><a href="#body">&uarr;</a></li>
-			</ul>
-		</nav>		
+		<?php 
+		 	echo c12_page_nav('order');  
+		?>		
 		<article class="article cl serif">
 		
 			<h2>Commander (via Paypal)</h2>
@@ -221,7 +190,7 @@
 			
 			?>			
 			<p class="cl">Pour connaître les frais de livraison pour des quantités plus importantes,
-			      merci de <a href="../contact.html">nous contacter</a>.</p>
+			      merci de <a href="/contact/">nous contacter</a>.</p>
 			
 		</article>
 	</div>	
