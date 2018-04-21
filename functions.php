@@ -55,9 +55,10 @@ function c12_head( $title, $description ) {
 	  <meta name="viewport" content="width=device-width,initial-scale=1">
 	
 	  <link rel="stylesheet" href="/css/style-v5.css">
-	  <link href="http://fonts.googleapis.com/css?family=Droid+Sans+Mono|Merriweather:400,400italic,700" rel="stylesheet" type="text/css">
+	  <link href="//fonts.googleapis.com/css?family=Droid+Sans+Mono|Merriweather:400,400italic,700" rel="stylesheet" type="text/css">
 	
 	  <script src="/js/libs/modernizr-2.0.6.min.js"></script>
+	  <script src="/js/pourriel.js"></script>
 	</head>
 	';
 	
