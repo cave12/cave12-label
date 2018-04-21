@@ -70,7 +70,7 @@
 					
 					<h2>killer_kipper</h2>
 					
-						<p>Cette pièce sonore a été enregistrée le 23.9.11 au Bâtiment d’art contemporain, Genève, sur l’invitation de la cave12 et du FMAC dans le cadre de la manifestation d’art contemporain (MAC 11).</p>
+						<p>Cette pièce sonore a été enregistrée le 23.9.2011 au Bâtiment d’art contemporain, Genève, sur l’invitation de la cave12 et du FMAC dans le cadre de la manifestation d’art contemporain (MAC 11).</p>
 						
 						<p class="newpar"> Il s’agit d’une performance live d’une durée de 26’58” réalisée à partir de composants électroniques trafiqués<sup>*</sup>.</p>
 						
