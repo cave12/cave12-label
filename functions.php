@@ -18,11 +18,12 @@ function c12_albums( ) {
 		// 'album-multitude' => 'Diatribes & Barry Guy - multitude',
 		'albums' => 'Albums',
 		// 'album-dust' => 'Antoine Chessex - Dust',
-		'francisco-meirino-upic' => 'Francisco Meirino - Untitled Phenomenas In Concrete',
+		// 'francisco-meirino-upic' => 'Francisco Meirino - Untitled Phenomenas In Concrete',
 		'norbert-moeslang' => 'Norbert Möslang - killer_kipper',
 		'ddk-floating-piece-of-space' => 'DDK - floating piece of space',
 		'vlan-voila' => 'Norbert Möslang - vlan_voilà',
-		'francisco-meirino-la-plainte' => 'Francisco Meirino - La Plainte'
+		'francisco-meirino-la-plainte' => 'Francisco Meirino - La Plainte',
+		'uruk' => 'Uruk',
 	);
 	
 	return $albums;

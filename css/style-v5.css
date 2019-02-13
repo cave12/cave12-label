@@ -789,10 +789,6 @@ and (min-width : 643px) {
 			width: auto;
 			height: auto;
 			flex: 1;
-			/*float: none;
-			width: auto;
-			height: auto;
-			*/
 		}
 		
 		.album-title {
@@ -877,7 +873,7 @@ and (min-width : 643px) {
 		    
 		    .bloc-image {
 		    	max-height: 20vh;
-		    	order: 2;
+/*		    	order: 2;*/
 		    }
 		    
 	}
