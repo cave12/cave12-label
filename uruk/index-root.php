@@ -112,7 +112,7 @@
 </section>
 
 <section class="article-bloc extrait-sonore" id="audio">
-	<div class="bloc-image"><img src="/img/uruk/uruk-lp-label.jpg" />
+	<div class="bloc-image"><img src="/img/uruk/cover-minimal.png" />
 	</div>
 	<div class="bloc-texte">
 		<?php 
@@ -136,7 +136,7 @@
 </section>
 
 <section class="article-bloc" id="credits">
-	<div class="bloc-image"><img src="/img/uruk/cover-detail.png" />
+	<div class="bloc-image"><img src="/img/uruk/uruk-lp-label.jpg" />
 	</div>
 	<div class="bloc-texte">
 		<?php 
