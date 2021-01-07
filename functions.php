@@ -19,11 +19,12 @@ function c12_albums( ) {
 		'albums' => 'Albums',
 		// 'album-dust' => 'Antoine Chessex - Dust',
 		// 'francisco-meirino-upic' => 'Francisco Meirino - Untitled Phenomenas In Concrete',
-		'norbert-moeslang' => 'Norbert Möslang - killer_kipper',
+		// 'norbert-moeslang' => 'Norbert Möslang - killer_kipper',
 		'ddk-floating-piece-of-space' => 'DDK - floating piece of space',
 		'vlan-voila' => 'Norbert Möslang - vlan_voilà',
 		'francisco-meirino-la-plainte' => 'Francisco Meirino - La Plainte',
 		'uruk' => 'Uruk',
+		'mika-vainio-last-live' => 'Mika Vainio - Last Live',
 	);
 	
 	return $albums;
