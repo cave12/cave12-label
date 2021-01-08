@@ -1,6 +1,6 @@
 <?php  
 
-	include( '../functions.php' );
+	include( 'functions.php' );
 	
 	echo c12_head( 
 		'Mika Vainio - Last Live', // title
@@ -36,8 +36,8 @@
 	
 ?>
 <style>
-	.album-la-plainte .main {
-    background: #000 url(/img/la-plainte/label-A-crpd.jpg) repeat left top;
+	.album-last-live .main {
+    background: #000 url(/img/vainio/cover-900.jpg) repeat left top;
     background-position: 50% 50%;
     background-size: cover;
     background-attachment: fixed;
@@ -212,13 +212,13 @@
 			<?php 
 			
 			 	echo c12_paypal(
-			 		'Total: 30.- CHF (+ frais de port)', // $text
+			 		'Total: 30.- CHF (+ envoi recommandé: 9.- CHF)', // $text
 			 		'CHF', // $currency
 			 		'5LT9FXJLXQBDG' // $code
 			 	); 
 			 	
 			 	echo c12_paypal(
-		 			'Total: 30 EUR (+ frais de port)', // $text
+		 			'Total: 26 EUR (+ shipping: 9 EUR)', // $text
 		 			'EUR', // $currency
 		 			'RFH6WSB2E225Y' // $code
 			 	);  
