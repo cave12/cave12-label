@@ -64,6 +64,15 @@
 		padding-bottom: 0.2em;
 	}
 	
+	p {
+		/*text-indent: 0;*/
+	}
+	
+	.label-prix {
+		padding-left: 1em;
+		text-indent: 0;
+	}
+	
 </style>
 <body class="album-last-live v4" id="body">
 
