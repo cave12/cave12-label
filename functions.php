@@ -107,7 +107,6 @@ function c12_header( $active ) {
 			 <ul>
 				 <li><a href="/presentation/">présentation</a></li>
 				 <li><a href="/contact/">contact</a></li>
-				 <li><a href="/liens/">liens</a></li>
 				 <li><a href="http://cave12.org">cave12</a></li>
 			 </ul>
 		 </nav>
