@@ -227,7 +227,7 @@
 			 	); 
 			 	
 			 	echo c12_paypal(
-		 			'Total: 26 EUR (+ shipping: 9 EUR)', // $text
+		 			'Total: 26 EUR (+ shipping: 14 EUR)', // $text
 		 			'EUR', // $currency
 		 			'RFH6WSB2E225Y' // $code
 			 	);  
